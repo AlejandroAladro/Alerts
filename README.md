@@ -7,11 +7,11 @@ ____________
 
 For Use this Alerts , you just need to add these classes on a div element:
 
-- a-alert => principal class.
-- .a-alert-info
-- .a-alert-success
-- .a-alert-warning
-- .a-alert-danger
+- a-alert  =>  principal class.
+- .a-alert-info  =>  alert info icon blue div.
+- .a-alert-success  =>  alert success icon green div.
+- .a-alert-warning  =>  alert  warning icon orange div.
+- .a-alert-danger  =>  alert  danger icon red div.
 
 Examples:
 ___________
