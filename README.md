@@ -5,6 +5,7 @@
 #### Usage
 ____________
 Insert insdie element "<head></head>" of your html the next links:
+
     - <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     - <script src="https://kit.fontawesome.com/aa2cf654f7.js" crossorigin="anonymous"></script>
 
