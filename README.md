@@ -12,7 +12,7 @@ Insert insdie  "<head></head>" of your html the next links:
 
 Insert at the end of your "<body></body>" the file alerts.js:
 
-<script src="alerts.js"></script>
+    <script src="alerts.js"></script>
 
 
 For Use this Alerts , you just need to add these classes on a div element:
