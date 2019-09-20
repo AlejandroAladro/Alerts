@@ -4,13 +4,13 @@
 
 #### Usage
 ____________
-Insert insdie  <head></head> of your html the next links:
+Insert insdie  head of your html the next links:
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/aa2cf654f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
-Insert at the end of your <body></body> the file alerts.js:
+Insert at the end of your body the file alerts.js:
 
     <script src="alerts.js"></script>
 
