@@ -2,7 +2,7 @@
 Alerts custom.
 ===============
 
-###Usage
+#### Usage
 ____________
 
 For Use this Alerts , you just need to add these classes on a div element:
