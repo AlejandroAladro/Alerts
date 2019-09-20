@@ -2,6 +2,9 @@
 Alerts custom.
 ===============
 
+######Usage
+____________
+
 For Use this Alerts , you just need to add these classes on a div element:
 
 a-alert => principal class.
