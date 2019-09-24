@@ -12,19 +12,23 @@
     position:absolute;
     top:50%;
     left:50%;
+    width: 700px;
     transform:translate(-50%,-50%)
 }
 
 .a-alert{
-    width: 600px;
+    display:flex;
+    flex-direction: row;
+    width: 90%;
     height: 60px;
     overflow: hidden;
     background: #3498db;
     margin:8px 0;
     color: #363636;
-    text-align: left;
     line-height: 60px;
 }
+
+
 
 .a-alert-info{
     background: #3498db;
@@ -38,46 +42,79 @@
     font-size:1em;
 }
 
+.a-alert-info:before {
+    content: "\f05a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: relative;
+    background:#2980b9;
+    height: 60px;
+    line-height: 60px; 
+    padding:0 10.3px;
+    margin-right: 5px;
+    font-size:1.1em;   
+}
+
 .a-alert-success{
     background: #2ecc71;
 }
 
-.a-alert-success>i{
+.a-alert-success:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: relative;
     background:#27ae60;
     height: 60px;
     line-height: 60px; 
-    padding:0 10px;
-    font-size:1em;
+    padding:0 10.3px;
+    font-size:1.1em;   
+    margin-right: 5px;
 }
-
 .a-alert-warning{
     background: #f39c12;
 }
-
-.a-alert-warning>i{
+.a-alert-warning:before {
+    content: "\f071";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: relative;
     background:#e67e22;
     height: 60px;
     line-height: 60px; 
     padding:0 10px;
-    font-size:0.9em;
+    font-size:1em;  
+    margin-right: 5px; 
 }
 
 .a-alert-danger{
     background: #e74c3c;
 }
-
-.a-alert-danger>i{
+.a-alert-danger:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: relative;
     background:#c0392b;
     height: 60px;
     line-height: 60px; 
     padding:0 12.5px;
-    font-size:1em;
+    font-size:1.2em;   
+    margin-right: 5px;
 }
+
 .a-alert .close-alert{
     float:right;
     padding-right: 5px;
     color:lightgray;
     cursor: pointer;
 }
-
 
